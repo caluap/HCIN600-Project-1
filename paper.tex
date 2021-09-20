@@ -30,6 +30,11 @@
 \pagestyle{plain} % removes running headers
 
 
+\usepackage[noorphans,indentfirst=false,leftmargin=1em,vskip=0.5ex]{quoting}
+\usepackage{microtype}
+
+\newcommand{\pr}[1]{\textsc{pr}\oldstylenums{#1}}
+
 %% NOTE that a single column version may required for 
 %% submission and peer review. This can be done by changing
 %% the \doucmentclass[...]{acmart} in this template to 
@@ -124,6 +129,7 @@
 %% The abstract is a short summary of the work to be presented in the
 %% article.
 \begin{abstract}
+\input{00-abstract}
 \end{abstract}
 
 %%
