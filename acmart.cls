@@ -35,6 +35,12 @@
 %%   Right bracket \]     Circumflex    \^     Underscore    \_
 %%   Grave accent  \`     Left brace    \{     Vertical bar  \|
 %%   Right brace   \}     Tilde         \~}
+
+
+
+
+
+
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{acmart}
 [2021/08/29 v1.79 Typesetting articles for the Association for Computing Machinery]
